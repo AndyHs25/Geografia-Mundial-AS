@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#9DE9F2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:text="Significado de la Geografia"
+                    android:textAlignment="center"
+                    android:textSize="28dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Concepto "
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Entendemos por Geografía a aquella ciencia que se interesa por el análisis de los fenómenos relacionados con la Tierra, tanto desde un punto de vista natural como humano. Es por esto que para la Geografía no sólo es importante todo lo que tenga que ver con la superficie, los elementos naturales y territoriales, si no también con la población que habita esos territorios y la adaptación a diferentes tipos de espacios. Proveniente del griego, la palabra Geografía significa &quot;descripción de la Tierra&quot;, y es así que esta ciencia se preocupará por describir y analizar diferentes aspectos relacionados con nuestro planeta. Para realizar tal análisis se puede recurrir a diversos enfoques que harán variar el objeto de estudio o el interés. Con el avance de la tecnología y los geo localizadores al alcance de todos, cada vez menos personas se interesan en su estudio, lo cierto es que esta ciencia estudia a detalle lo que pasa en el planeta respecto a sus condiciones climáticas, orográficas y los diferentes fenómenos naturales. Incluye el análisis espacial de los fenómenos humanos y naturales, la exploración de las ciencias de la tierra, y el estudio de la relación entre la naturaleza y la vida humana. También analiza los procesos sociales, económicos y ambientales que afectan al medio ambiente. ¿No te parece que es importante?"
+                    android:textAlignment="center"
+                    android:textSize="15dp" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="204dp"
+                    android:scrollbarSize="18dp"
+                    app:srcCompat="@drawable/img0" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Importancia de la Geografia"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="La geografía es crucial para comprender la interacción entre el entorno físico y las actividades humanas. Nos ayuda a planificar ciudades sostenibles, manejar recursos naturales y enfrentar desafíos ambientales como el cambio climático. También promueve la conciencia cultural y el entendimiento global."
+                    android:textAlignment="center"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Tipos de Geografia"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#1E88E5"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <Button
+                        android:id="@+id/btnFisica"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="#1E82E5"
+                        android:text="Geografia fisica" />
+
+                    <Button
+                        android:id="@+id/btnHumana"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+
+                        android:backgroundTint="#1E82E5"
+                        android:text="Geografia Huamana" />
+
+                    <Button
+                        android:id="@+id/btnRegional"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="#1E82E5"
+                        android:text="Geografia Regional" />
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="Siguenos en: "
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="60dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/facebook" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="60dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/twiter" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="60dp"
+                    android:layout_height="42dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/youtube" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desarrollado por CaChorRAo"
+                android:textAlignment="center"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

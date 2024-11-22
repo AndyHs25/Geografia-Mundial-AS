@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9DE9F2"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".RegionalActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:text="Greografia Regional"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La geografía regional se centra en el estudio de áreas específicas del mundo, analizando sus características físicas, económicas, culturales y sociales. Examina cómo interactúan los diferentes factores dentro de una región y cómo influyen en su desarrollo. Ayuda a identificar las singularidades y problemas de cada área, facilitando la planificación y gestión del territorio. También promueve la comprensión de las diferencias y similitudes entre regiones. Es fundamental para abordar cuestiones locales y regionales, como la urbanización, el uso de recursos y el impacto ambiental."
+            android:textAlignment="center"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="254dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/img01" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#1E82E5"
+            android:text="Volver" />
+    </LinearLayout>
+</LinearLayout>

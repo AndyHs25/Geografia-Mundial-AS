@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9DE9F2"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".FisicaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:text="Greografia Fisica"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La geografía física estudia los procesos y patrones naturales de la Tierra, incluidos los climas, suelos, montañas, ríos y océanos. Analiza cómo estos elementos interactúan y afectan el entorno y las actividades humanas. Se enfoca en fenómenos como el cambio climático, la erosión y la formación de paisajes. Esta disciplina es esencial para comprender los riesgos naturales, como terremotos y huracanes, y planificar su mitigación. Además, ayuda a gestionar los recursos naturales de manera sostenible."
+            android:textAlignment="center"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="259dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/img02" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#1E82E5"
+            android:text="Volver" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9DE9F2"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".HumanaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:text="Greografia Humana"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La geografía humana estudia la interacción entre las personas y su entorno. Examina cómo las actividades humanas, como la agricultura, la urbanización y el comercio, moldean el paisaje y cómo el entorno influye en estas actividades. También se enfoca en temas como la migración, la distribución de la población y las culturas. Esta disciplina ayuda a entender las conexiones y diferencias entre las sociedades humanas a lo largo del tiempo y el espacio. Es esencial para abordar problemas globales como el cambio climático y la sostenibilidad."
+            android:textAlignment="center"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="254dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/img2" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#1E82E5"
+            android:text="Volver" />
+    </LinearLayout>
+</LinearLayout>
